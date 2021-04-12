@@ -36,11 +36,14 @@ void CompanyProcessor::process(vector<Movie> movies, vector<string> genres) {
 
                 // if map exists the company then get the revenue and sum. Or insert revenue directly.
                 if (companyTotalRevenue.find(movie.GetCompany()) == companyTotalRevenue.end()) {
-                    companyTotalRevenue.insert({movie.GetCompany(), movie.GetRevenue()});
+//                    companyTotalRevenue.insert({movie.GetCompany(), movie.GetRevenue()});
+                    companyTotalRevenue[movie.GetCompany()] = movie.GetRevenue();
 
                 } else {
                     int totalRevenue = companyTotalRevenue.at(movie.GetCompany()) + movie.GetRevenue();
-                    companyTotalRevenue.insert({movie.GetCompany(), totalRevenue});
+//                    companyTotalRevenue.insert({movie.GetCompany(), totalRevenue});
+                    companyTotalRevenue.erase(movie.GetCompany());
+                    companyTotalRevenue[movie.GetCompany()] = totalRevenue;
                 }
             }
         }
@@ -58,11 +61,9 @@ void CompanyProcessor::process(vector<Movie> movies, vector<string> genres) {
             }
         }
 
-
         cout << "The most profitable company in the genre " << genre << " is " << maxCompany << endl;
         cout << "The total revenue is " << maxRevenue << endl;
 
-        // TODO output in a file.
         ofs << "The most profitable company in the genre " << genre << " is " << maxCompany << endl;
         ofs << "The total revenue is " << maxRevenue << endl;
     }
