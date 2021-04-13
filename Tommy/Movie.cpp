@@ -4,14 +4,14 @@
 
 void Movie::setData(
     std::string theTitle,
-    std::string theCompany,
+    std::string theCompany,  
     std::string theDirector,
     int theRevenue,
     std::vector<std::string> &theActors,
     std::vector<std::string> &theGenres)
 {
     title = theTitle;
-    company = theCompany;
+    company = theCompany;  
     director = theDirector;
     revenue = theRevenue;
     actors = &theActors;
