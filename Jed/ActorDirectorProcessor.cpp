@@ -5,7 +5,7 @@
 #include <vector>
 
 #include "ActorDirectorProcessor.h"
-#include "C:\Users\jedgr\Desktop\CSC340GroupProject-main\Jed\movie.h"
+#include "../Tommy/Movie.h"
 
 using namespace std;
 
@@ -69,5 +69,8 @@ void ActorDirectorProcessor::process(vector<Movie> movies, vector<string> genres
 
         cout << "The most profitable director-actor combination in the genre " << genre << " is " << maxDirAct << endl;
         cout << "The total revenue is " << maxRevenue << endl;
+
+        ofs << "The most profitable director-actor in the genre " << genre << " is " << maxDirAct << endl;
+        ofs << "The total revenue is " << maxRevenue << endl;
     }
 }

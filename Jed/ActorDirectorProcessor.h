@@ -2,7 +2,7 @@
 #define ACTORDIRECTORPROCESSOR_H
 
 #include <vector>
-#include "C:\Users\jedgr\Desktop\CSC340GroupProject-main\Jed\movie.h"
+#include "../Tommy/Movie.h"
 
 using namespace std;
 
