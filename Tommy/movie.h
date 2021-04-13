@@ -2,6 +2,7 @@
 #define Movie_H
 
 #include <string>
+#include <vector>
 
 class Movie{
     public:
