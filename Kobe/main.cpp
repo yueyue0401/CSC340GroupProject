@@ -1,6 +1,22 @@
-#include <iostream>
+#ifdef <Actorsprofit_processor_H>
+#define <Actorsprofit_processor_H>
+#include <vector>
+#include "../Tommy/Movie.h"
 
-int main() {
-    std::cout << "Hello, Kobe!" << std::endl;
-    return 0;
-}
+
+using namespace std;
+    
+    class ActorsProfitprocessor {
+    
+    public:
+  
+    void Profit (vector<Movie> movies, vector<string> genres);
+        
+    private: 
+        
+    };
+
+#endif
+    
+    
+
