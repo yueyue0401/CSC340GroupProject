@@ -162,7 +162,7 @@ void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
 }
 
 
-int main() {
+/*int main() {
     MovieReader movie1;
     cout << "Testing" << endl;
-}
+}*/
