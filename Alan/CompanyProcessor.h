@@ -8,7 +8,7 @@ using namespace std;
 class CompanyProcessor
 {
 public:
-    void process(vector<Movie> movies, vector<string> genres);
+    static void process(const vector<Movie>& movies, const vector<string>& genres);
 
 private:
 

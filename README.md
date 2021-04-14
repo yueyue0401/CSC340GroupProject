@@ -25,7 +25,7 @@ https://www.kaggle.com/tmdb/tmdb-movie-metadata
 | 1   | Tommy | Read files and create ADT and class and integration |
 | 2   | Kobe  | The most profitable actors in genre |
 | 3   | Jed   | The most profitable actor-director collaboration |
-| 4   | Alan  | The most profitable companies in genre |
+| 4   | Cheng-Yu  | The most profitable companies in genre |
 
 ## The following methods will keep our project organized:
 We will utilize our Discord group to communicate with our team members and to aid in brainstorming our project.
