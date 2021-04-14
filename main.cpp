@@ -12,7 +12,7 @@ using namespace std;
 int main() {
     std::cout << "Welcome to Group 15 project" << std::endl;
 
-    // Tommy reading file
+    Vector<Movie> movies; // Tommy reading file into this object
 
     string genre;
 
