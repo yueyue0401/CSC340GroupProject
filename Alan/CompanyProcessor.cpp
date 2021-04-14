@@ -13,10 +13,10 @@ using namespace std;
  * @param movies
  * @param genres
  */
-void CompanyProcessor::process(vector<Movie> movies, vector<string> genres) {
+void CompanyProcessor::process(const vector<Movie>& movies, const vector<string>& genres) {
 
     ofstream ofs;
-    ofs.open("TTTTTT.txt");
+    ofs.open("TheMostProfitableCompany.txt");
 
     if (!ofs.is_open()) {
         cout << "Could not open file myoutfile.txt." << endl;
