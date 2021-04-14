@@ -1,5 +1,5 @@
-//#ifndef MOVIE_H
-//define MOVIE_H
+#ifndef MOVIE_H
+#define MOVIE_H
 
 #include <string>
 #include <vector>
@@ -36,4 +36,4 @@ class Movie{
         std::vector<std::string> *genres;
         
 };
-//#endif
+#endif
