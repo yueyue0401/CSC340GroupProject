@@ -1,6 +1,9 @@
+#include "MovieReader.h" 
+//#include "Movie.h"
+
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, Tommy!" << std::endl;
-    return 0;
+    MovieReader::MovieReader movie1;
+    cout << "Testing" << endl;
 }

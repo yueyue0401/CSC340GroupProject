@@ -8,7 +8,7 @@ class MovieReader {
     public:
         vector<Movie> getMovies();
         vector<string> getGenres();
-        void populateData();
+        MovieReader();
         /*
         1. create hashmap for movies hashset for genres
         2. read file one and populate hashmap and hashset for genres
@@ -16,6 +16,8 @@ class MovieReader {
         4. store hashmap values in movies, hashset values in genres
         */
     private:
+        unordered_map<int, Movie> movieMap;
+        unordered_set<string> genreSet;
         vector<Movie> movies;
         vector<string> genres;
 

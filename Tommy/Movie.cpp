@@ -2,23 +2,24 @@
 #include <vector>
 #include <string>
 
-void Movie::setData(
+void Movie::Movie(
     std::string theTitle,
-    std::string theCompany,  
+    std::string theCompany,
     std::string theDirector,
     int theRevenue,
     std::vector<std::string> &theActors,
     std::vector<std::string> &theGenres)
 {
     title = theTitle;
-    company = theCompany;  
+    company = theCompany;
     director = theDirector;
     revenue = theRevenue;
     actors = &theActors;
     genres = &theGenres;
 }
 
-void Movie::setTitle(std::string title) {
+void Movie::setTitle(std::string title)
+{
     this->title = title;
 }
 
@@ -50,4 +51,17 @@ std::vector<std::string> Movie::GetActors()
 std::vector<std::string> Movie::GetGenres()
 {
     return *genres;
+}
+
+void setId(int intId)
+{
+    this->intId = intId;
+}
+
+int getId(){
+    return intId;
+}
+
+void setDirector(string theDirector){
+    this->theDirector = theDirector;
 }

@@ -1,20 +1,19 @@
-#ifndef Movie_H
-#define Movie_H
+//#ifndef MOVIE_H
+//define MOVIE_H
 
 #include <string>
 #include <vector>
 
 class Movie{
     public:
-        void setData(
+        Movie(
             std::string theTitle,
             std::string theCompany,  
             std::string theDirector,
             int theRevenue,
-            std::vector<std::string> &theActors
+            std::vector<std::string> &theActors,
+            std::vector<std::string> &theGenres
         );
-        void setGenre(
-            std::vector<std::string> &theGenres);
         void setTitle(std::string title);
         std::string GetTitle() const;
         std::string GetCompany() const;  
@@ -22,9 +21,13 @@ class Movie{
         int GetRevenue() const;
         std::vector<std::string> GetActors();
         std::vector<std::string> GetGenres();
+        void setId(int intId);
+        int getId();
+        void setDirector(std::string theDirector);
 
     
     private:
+        int intId;
         std::string title;
         std::string company;
         std::string director;
@@ -33,4 +36,4 @@ class Movie{
         std::vector<std::string> *genres;
         
 };
-#endif
+//#endif
