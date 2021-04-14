@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-void Movie::Movie(
+Movie::Movie(
     std::string theTitle,
     std::string theCompany,
     std::string theDirector,
@@ -53,15 +53,15 @@ std::vector<std::string> Movie::GetGenres()
     return *genres;
 }
 
-void setId(int intId)
+void Movie::setId(int intId)
 {
     this->intId = intId;
 }
 
-int getId(){
+int Movie::getId(){
     return intId;
 }
 
-void setDirector(string theDirector){
-    this->theDirector = theDirector;
+void Movie::setDirector(std::string theDirector){
+    this->director = theDirector;
 }
