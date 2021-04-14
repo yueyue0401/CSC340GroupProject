@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-void Movie::Movie(
+Movie::Movie(
     std::string theTitle,
     std::string theCompany,
     std::string theDirector,
@@ -23,22 +23,22 @@ void Movie::setTitle(std::string title)
     this->title = title;
 }
 
-std::string Movie::GetTitle() const
+std::string Movie::GetTitle()
 {
     return title;
 }
 
-std::string Movie::GetCompany() const
+std::string Movie::GetCompany() 
 {
     return company;
 }
 
-std::string Movie::GetDirector() const
+std::string Movie::GetDirector() 
 {
     return director;
 }
 
-int Movie::GetRevenue() const
+int Movie::GetRevenue()
 {
     return revenue;
 }

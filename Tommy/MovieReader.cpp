@@ -1,4 +1,5 @@
 #include "MovieReader.h"
+
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
@@ -26,14 +27,14 @@ MovieReader::MovieReader()
         4. store hashmap values in movies, hashset values in genres
         */
 
-    std::unordered_map<int, Movie> movieMap;
+    std::unordered_map<string, Movie> movieMap;
     std::unordered_set<string> genreSet;
 
     readFile1(movieMap, genreSet);
     readFile2(movieMap);
 
     // get all values from movieMap and save to movies
-    for (unordered_map<int, Movie>::iterator i = movieMap.begin(); i != movieMap.end(); i++)
+    for (unordered_map<string, Movie>::iterator i = movieMap.begin(); i != movieMap.end(); i++)
     {
         movies.push_back(i->second);
     }
@@ -44,7 +45,7 @@ MovieReader::MovieReader()
     }
 }
 
-void MovieReader::readFile1(unordered_map<int, Movie> movieMap, unordered_set<string> genreSet)
+void MovieReader::readFile1(unordered_map<string, Movie> movieMap, unordered_set<string> genreSet)
 {
     ifstream inFS;
     inFS.open("tmdb_5000_movies.csv");
@@ -101,11 +102,7 @@ void MovieReader::readFile1(unordered_map<int, Movie> movieMap, unordered_set<st
         line = line.substr(line.find(delimiter) + 1, line.length());
         string movieId = line.substr(0, line.find(delimiter));
         
-        //convert string to int
-        std::stringstream integer1(movieId);
-
-        int idOfMovie = 0;
-        integer1 >> idOfMovie;
+    
         line = line.substr(line.find(delimiter) + 1, line.length());
 
         //find original_title
@@ -134,21 +131,19 @@ void MovieReader::readFile1(unordered_map<int, Movie> movieMap, unordered_set<st
         stringstream integer2(revenue);
         int answer = 0;
         integer2 >> answer;
-        revenue = answer;
+        
 
         //I did not implement adding actors
         vector<string> actors1;
 
 
-        Movie read1 = Movie(original_title, company, " ", revenue, actors1, genres);
-        //unordered_map<int, Movie> movieMap;
-    
-        movieMap = {movieId, read1};
-        cout << read1.original_title << endl;
-        cout << read1.company << endl;
-        cout << read1.revenue << endl;
-        cout << read1.actors1 << endl;
-        cout << read1.genres << endl;
+        Movie read1 = Movie(original_title, company, " ", answer, actors1, genres);
+        // could not solve Undefined symbols for architecture x86_64:
+        //std::string temp_title = read1.GetCompany();
+        //cout << temp_title << endl;
+        //cout << read1.GetCompany() << endl;
+        //cout << read1.GetRevenue() << endl;
+        
 
         getline(inFS,line);
 
@@ -162,7 +157,7 @@ void MovieReader::readFile1(unordered_map<int, Movie> movieMap, unordered_set<st
     inFS.close();
 }
 
-void MovieReader::readFile2(unordered_map<int, Movie> movieMap)
+void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
 {
 }
 

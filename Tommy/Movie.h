@@ -15,10 +15,10 @@ class Movie{
             std::vector<std::string> &theGenres
         );
         void setTitle(std::string title);
-        std::string GetTitle() const;
-        std::string GetCompany() const;  
-        std::string GetDirector() const;
-        int GetRevenue() const;
+        std::string GetTitle();
+        std::string GetCompany();  
+        std::string GetDirector();
+        int GetRevenue();
         std::vector<std::string> GetActors();
         std::vector<std::string> GetGenres();
         void setId(int intId);
