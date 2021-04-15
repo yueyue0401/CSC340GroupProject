@@ -223,33 +223,6 @@ Jed/ActorDirectorProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.s
 .PHONY : Jed/ActorDirectorProcessor.cpp.s
 
-Kobe/ActorsProfitProcessor.o: Kobe/ActorsProfitProcessor.cpp.o
-
-.PHONY : Kobe/ActorsProfitProcessor.o
-
-# target to build an object file
-Kobe/ActorsProfitProcessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o
-.PHONY : Kobe/ActorsProfitProcessor.cpp.o
-
-Kobe/ActorsProfitProcessor.i: Kobe/ActorsProfitProcessor.cpp.i
-
-.PHONY : Kobe/ActorsProfitProcessor.i
-
-# target to preprocess a source file
-Kobe/ActorsProfitProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.i
-.PHONY : Kobe/ActorsProfitProcessor.cpp.i
-
-Kobe/ActorsProfitProcessor.s: Kobe/ActorsProfitProcessor.cpp.s
-
-.PHONY : Kobe/ActorsProfitProcessor.s
-
-# target to generate assembly for a file
-Kobe/ActorsProfitProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.s
-.PHONY : Kobe/ActorsProfitProcessor.cpp.s
-
 Tommy/Movie.o: Tommy/Movie.cpp.o
 
 .PHONY : Tommy/Movie.o
@@ -276,33 +249,6 @@ Tommy/Movie.s: Tommy/Movie.cpp.s
 Tommy/Movie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.s
 .PHONY : Tommy/Movie.cpp.s
-
-Tommy/MovieReader.o: Tommy/MovieReader.cpp.o
-
-.PHONY : Tommy/MovieReader.o
-
-# target to build an object file
-Tommy/MovieReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o
-.PHONY : Tommy/MovieReader.cpp.o
-
-Tommy/MovieReader.i: Tommy/MovieReader.cpp.i
-
-.PHONY : Tommy/MovieReader.i
-
-# target to preprocess a source file
-Tommy/MovieReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.i
-.PHONY : Tommy/MovieReader.cpp.i
-
-Tommy/MovieReader.s: Tommy/MovieReader.cpp.s
-
-.PHONY : Tommy/MovieReader.s
-
-# target to generate assembly for a file
-Tommy/MovieReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSC340GroupProject.dir/build.make CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.s
-.PHONY : Tommy/MovieReader.cpp.s
 
 main.o: main.cpp.o
 
@@ -349,15 +295,9 @@ help:
 	@echo "... Jed/ActorDirectorProcessor.o"
 	@echo "... Jed/ActorDirectorProcessor.i"
 	@echo "... Jed/ActorDirectorProcessor.s"
-	@echo "... Kobe/ActorsProfitProcessor.o"
-	@echo "... Kobe/ActorsProfitProcessor.i"
-	@echo "... Kobe/ActorsProfitProcessor.s"
 	@echo "... Tommy/Movie.o"
 	@echo "... Tommy/Movie.i"
 	@echo "... Tommy/Movie.s"
-	@echo "... Tommy/MovieReader.o"
-	@echo "... Tommy/MovieReader.i"
-	@echo "... Tommy/MovieReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

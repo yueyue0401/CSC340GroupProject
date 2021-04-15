@@ -102,22 +102,9 @@ CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Jed/ActorDirectorProcessor.cpp -o CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.s
 
-CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o: CMakeFiles/CSC340GroupProject.dir/flags.make
-CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o: ../Kobe/ActorsProfitProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o -c /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitProcessor.cpp
-
-CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitProcessor.cpp > CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.i
-
-CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitProcessor.cpp -o CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.s
-
 CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o: CMakeFiles/CSC340GroupProject.dir/flags.make
 CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o: ../Tommy/Movie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o -c /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/Movie.cpp
 
 CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.i: cmake_force
@@ -128,22 +115,9 @@ CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/Movie.cpp -o CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.s
 
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o: CMakeFiles/CSC340GroupProject.dir/flags.make
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o: ../Tommy/MovieReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o -c /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/MovieReader.cpp
-
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/MovieReader.cpp > CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.i
-
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/MovieReader.cpp -o CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.s
-
 CMakeFiles/CSC340GroupProject.dir/main.cpp.o: CMakeFiles/CSC340GroupProject.dir/flags.make
 CMakeFiles/CSC340GroupProject.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CSC340GroupProject.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CSC340GroupProject.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSC340GroupProject.dir/main.cpp.o -c /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/main.cpp
 
 CMakeFiles/CSC340GroupProject.dir/main.cpp.i: cmake_force
@@ -156,7 +130,7 @@ CMakeFiles/CSC340GroupProject.dir/main.cpp.s: cmake_force
 
 CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o: CMakeFiles/CSC340GroupProject.dir/flags.make
 CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o: ../Alan/MovieCSVReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o -c /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.cpp
 
 CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.i: cmake_force
@@ -171,9 +145,7 @@ CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.s: cmake_force
 CSC340GroupProject_OBJECTS = \
 "CMakeFiles/CSC340GroupProject.dir/Alan/CompanyProcessor.cpp.o" \
 "CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.o" \
-"CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o" \
 "CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o" \
-"CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o" \
 "CMakeFiles/CSC340GroupProject.dir/main.cpp.o" \
 "CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o"
 
@@ -182,14 +154,12 @@ CSC340GroupProject_EXTERNAL_OBJECTS =
 
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Alan/CompanyProcessor.cpp.o
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.o
-CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o
-CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/main.cpp.o
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/Alan/MovieCSVReader.cpp.o
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/build.make
 CSC340GroupProject: CMakeFiles/CSC340GroupProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CSC340GroupProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CSC340GroupProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSC340GroupProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

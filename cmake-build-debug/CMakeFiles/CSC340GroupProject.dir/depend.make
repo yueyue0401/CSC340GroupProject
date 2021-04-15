@@ -14,14 +14,8 @@ CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.o: ../Jed/Actor
 CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.o: ../Tommy/Movie.h
 CMakeFiles/CSC340GroupProject.dir/Jed/ActorDirectorProcessor.cpp.o: ../Tommy/MovieReader.h
 
-CMakeFiles/CSC340GroupProject.dir/Kobe/ActorsProfitProcessor.cpp.o: ../Kobe/ActorsProfitProcessor.cpp
-
 CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o: ../Tommy/Movie.cpp
 CMakeFiles/CSC340GroupProject.dir/Tommy/Movie.cpp.o: ../Tommy/Movie.h
-
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o: ../Tommy/Movie.h
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o: ../Tommy/MovieReader.cpp
-CMakeFiles/CSC340GroupProject.dir/Tommy/MovieReader.cpp.o: ../Tommy/MovieReader.h
 
 CMakeFiles/CSC340GroupProject.dir/main.cpp.o: ../Alan/MovieCSVReader.h
 CMakeFiles/CSC340GroupProject.dir/main.cpp.o: ../Tommy/Movie.h

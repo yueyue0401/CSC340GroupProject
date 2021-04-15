@@ -13,8 +13,25 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a36cf1-503e-4c08-b0f7-cf9cedc1c52d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alan/MovieCSVReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tmdb_5000_credits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tmdb_5000_credits.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tmdb_5000_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +54,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///CSC340GroupProject" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__string" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qvHh60hCpVbkLuR1QEucz7x3P9" />
@@ -76,12 +92,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CSC340GroupProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CSC340GroupProject" TARGET_NAME="CSC340GroupProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CSC340GroupProject" RUN_TARGET_NAME="CSC340GroupProject">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="CSC340GroupProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CSC340GroupProject" TARGET_NAME="CSC340GroupProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CSC340GroupProject" RUN_TARGET_NAME="CSC340GroupProject">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -106,7 +122,8 @@
       <workItem from="1618219660223" duration="190000" />
       <workItem from="1618372136405" duration="6807000" />
       <workItem from="1618381300912" duration="3986000" />
-      <workItem from="1618457632179" duration="20598000" />
+      <workItem from="1618457632179" duration="20944000" />
+      <workItem from="1618490660506" duration="6904000" />
     </task>
     <servers />
   </component>

@@ -31,3 +31,10 @@ https://www.kaggle.com/tmdb/tmdb-movie-metadata
 We will utilize our Discord group to communicate with our team members and to aid in brainstorming our project.
 We will use Github for version control and integration.
 Finally we will be using Google Docs for our final documents.
+
+## How to run
+compile by CMakeLists  
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --build /Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug --target CSC340GroupProject -- -j 6
+  
+cd cmake-build-debug  
+./CSC340GroupProject

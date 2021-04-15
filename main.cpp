@@ -12,9 +12,9 @@
 using namespace std;
 
 int main() {
-    std::cout << "Welcome to Group 15 project" << std::endl;
+    std::cout << "Welcome to Group 15 project " << std::endl;
 
-    std::cout << "Start to read files..." << std::endl;
+    std::cout << "Start to read files... " << std::endl;
     MovieCSVReader movieCsvReader;
     movieCsvReader.read();
 
@@ -28,11 +28,11 @@ int main() {
     cin >> ans;
 
     if (ans == "Y") {
-        std::cout << "Start to calculate the most profitable company in each genres..." << std::endl;
+        std::cout << "Start to calculate the most profitable company in each genre... " << std::endl;
         CompanyProcessor::process(movies, genres);
     }
 
-    std::cout << std::endl << "Do you want to see the most profitable director-actor in each genres? (Y/N)" << std::endl;
+    std::cout << std::endl << "Do you want to see the most profitable director-actor in each genre? (Y/N)" << std::endl;
     cin >> ans;
 
     if (ans == "Y") {

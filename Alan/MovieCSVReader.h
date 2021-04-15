@@ -6,7 +6,7 @@
 #define CSC340GROUPPROJECT_MOVIECSVREADER_H
 
 #include <set>
-#include <Movie.h>
+#include <../Tommy/Movie.h>
 
 class MovieCSVReader {
 public:
