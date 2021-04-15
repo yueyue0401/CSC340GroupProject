@@ -25,6 +25,7 @@ class Movie{
         void setId(int intId);
         int getId();
         void setDirector(std::string theDirector);
+        
 
     
     private:

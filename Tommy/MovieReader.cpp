@@ -46,7 +46,9 @@ MovieReader::MovieReader()
 }
 
 void MovieReader::readFile1(unordered_map<string, Movie> movieMap, unordered_set<string> genreSet)
-{
+{   
+    
+
     ifstream inFS;
     inFS.open("tmdb_5000_movies.csv");
 
@@ -150,6 +152,11 @@ void MovieReader::readFile1(unordered_map<string, Movie> movieMap, unordered_set
         stringstream integer2(revenue);
         int answer = 0;
         integer2 >> answer;
+
+        if (answer > max_revenue){
+            max_revenue = answer;
+            max_movie_name_revenue = original_title;
+        }
         
 
         //I did not implement adding actors
@@ -236,8 +243,13 @@ void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
     }
 }
 
+std::string MovieReader::getMaxMovie(){
+    return max_movie_name_revenue;
+}
 
-/*int main() {
+
+int main() {
     MovieReader movie1;
     //movie1.readFile2(movie1.movieMap);
-}*/
+    cout << "max movie: " << movie1.getMaxMovie() << endl;
+}

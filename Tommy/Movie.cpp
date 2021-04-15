@@ -74,3 +74,5 @@ int Movie::getId(){
 void Movie::setDirector(std::string theDirector){
     this->director = theDirector;
 }
+
+
