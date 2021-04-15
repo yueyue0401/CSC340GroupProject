@@ -17,7 +17,7 @@ int main() {
 
     string genre;
 
-    while (1) {
+    while (true) {
         cout << "Enter the genre: (Q to quit)" << endl;
         cin >> genre;
         if (genre == "Q") break;

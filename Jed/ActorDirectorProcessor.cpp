@@ -3,11 +3,13 @@
 #include <unordered_map>
 #include <fstream>
 #include <vector>
+#include "../Tommy/MovieReader.h"
 
 #include "ActorDirectorProcessor.h"
 #include "../Tommy/Movie.h"
 
 using namespace std;
+
 
 
 void ActorDirectorProcessor::process(vector<Movie> movies, vector<string> genres) {

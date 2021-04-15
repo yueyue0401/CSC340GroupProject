@@ -53,7 +53,7 @@ void ActorsProfitProcessor::process(vector<Movie> movies, vector<string> genres)
             }
 
         }
-        int maxRevenue;
+        int maxRevenue = 0;
         string maxGenreAct;
 
         for (auto &it : ActorsRevenue) {
@@ -66,10 +66,10 @@ void ActorsProfitProcessor::process(vector<Movie> movies, vector<string> genres)
             }
         }
 
-        cout << "The most profitable actors in the genre" << genre << "is" << maxGenreAct << endl;
+        cout << "The most profitable actor in the genre" << genre << "is" << maxGenreAct << endl;
         cout << "The total revenue is " << maxRevenue << endl;
 
-        ofs << "The most profitable Actors in the genre" << genre << "is" << maxGenreAct << endl;
+        ofs << "The most profitable actor in the genre" << genre << "is" << maxGenreAct << endl;
         ofs << "The total revenue is" << maxRevenue << endl;
     }
 
