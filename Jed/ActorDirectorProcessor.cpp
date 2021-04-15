@@ -69,6 +69,8 @@ void ActorDirectorProcessor::process(vector<Movie> movies, vector<string> genres
             }
         }
 
+        if (maxRevenue == 0) continue;
+
         cout << "The most profitable director-actor combination in the genre " << genre << " is " << maxDirAct << endl;
         cout << "The total revenue is " << maxRevenue << endl;
 

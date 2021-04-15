@@ -12,15 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a36cf1-503e-4c08-b0f7-cf9cedc1c52d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alan/tmdb_5000_credits.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alan/tmdb_5000_movies.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kobe/ActorsProfitProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Kobe/ActorsProfitProcessor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tommy/Movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/Movie.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tommy/Movie.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/Movie.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tommy/tmdb_5000_credits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/tmdb_5000_credits.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tommy/tmdb_5000_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alan/CompanyProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Alan/CompanyProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jed/ActorDirectorProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Jed/ActorDirectorProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TheMostProfitableCompany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TheMostProfitableCompany.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/actorDirectorOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/actorDirectorOutput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +111,7 @@
       <workItem from="1618219660223" duration="190000" />
       <workItem from="1618372136405" duration="6807000" />
       <workItem from="1618381300912" duration="3986000" />
-      <workItem from="1618457632179" duration="17395000" />
+      <workItem from="1618457632179" duration="19665000" />
     </task>
     <servers />
   </component>
@@ -132,15 +131,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Alan/CompanyProcessor.cpp</url>
-          <line>70</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="Movie movie2(title, companyName, director, stol(revenueStr), actors, genreMovie);" language="ObjectiveC" />

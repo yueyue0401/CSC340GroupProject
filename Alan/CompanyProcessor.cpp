@@ -61,6 +61,8 @@ void CompanyProcessor::process(const vector<Movie>& movies, const vector<string>
             }
         }
 
+        if (maxRevenue == 0) continue;
+
         cout << "The most profitable company in the genre " << genre << " is " << maxCompany << endl;
         cout << "The total revenue is " << maxRevenue << endl;
 
