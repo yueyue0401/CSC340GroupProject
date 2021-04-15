@@ -62,7 +62,6 @@ void MovieReader::readFile1(unordered_map<string, Movie> movieMap, unordered_set
     int count = 0;
     while (!inFS.fail())
     {
-        cout << count << endl;
         line.erase(remove(line.begin(), line.end(), '\"'), line.end());
         count++;
         if (count == 5000){
@@ -170,10 +169,8 @@ void MovieReader::readFile1(unordered_map<string, Movie> movieMap, unordered_set
         movieMap[movieId]=read1;
         Movie temp_movie = movieMap[movieId];
         //cout<< movieMap[movieId]<<endl;
-        std::string temp_title = read1.GetTitle();
-        cout << "Title: "<<temp_title << endl;
-        cout << "company: " << read1.GetCompany() << endl;
-        cout << "revenue: "<< read1.GetRevenue() << endl;
+        std::string temp_title = temp_movie.GetTitle();
+       
         getline(inFS,line);
 
     }
@@ -199,33 +196,29 @@ void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
 
     string temp;
     getline(inFS, temp);
+    int count = 0;
 
     while (!inFS.fail()){
+        if (count == 2000){
+            break;
+        }
         string line;
         getline(inFS,line);
-
         //strip all the quotation marks
         line.erase(remove( line.begin(), line.end(), '\"' ), line.end());
 
         // grab movie id
         string delimiter = ",";
         string id = line.substr(0,line.find(delimiter));
-        stringstream integer(id);
-        int idOfMovieGenre = 0;
-        integer >> idOfMovieGenre;
-        cout << "id " << idOfMovieGenre << endl;
-
+        
+        
         //find director
         delimiter = "Director,";
         int temp1 = line.find(delimiter);
         if (temp1 != -1){
         line = line.substr(temp1, line.length());
         }
-        else{
-            cout <<"cant find string"<<endl;
-            cout << line <<endl;
 
-        }
         delimiter = "}";
         line = line.substr(0,line.find(delimiter));
         delimiter = ": ";
@@ -233,12 +226,18 @@ void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
         
         string director = line.substr(0, line.length());
         
-        cout << "director" << director << endl;
+
+        Movie temp = movieMap[id];
+        temp.setDirector(director);
+        movieMap[id] = temp;
+        
+
+        count++;
     }
 }
 
 
 /*int main() {
     MovieReader movie1;
-    movie1.readFile2(movie1.movieMap);
+    //movie1.readFile2(movie1.movieMap);
 }*/
