@@ -13,10 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a36cf1-503e-4c08-b0f7-cf9cedc1c52d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alan/MovieCSVReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSC340GroupProject.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSC340GroupProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1618219660223" duration="190000" />
       <workItem from="1618372136405" duration="6807000" />
       <workItem from="1618381300912" duration="3986000" />
-      <workItem from="1618457632179" duration="20246000" />
+      <workItem from="1618457632179" duration="20598000" />
     </task>
     <servers />
   </component>
