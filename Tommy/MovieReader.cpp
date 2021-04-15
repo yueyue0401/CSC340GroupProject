@@ -238,7 +238,7 @@ void MovieReader::readFile2(unordered_map<string, Movie> movieMap)
 }
 
 
-int main() {
+/*int main() {
     MovieReader movie1;
     movie1.readFile2(movie1.movieMap);
-}
+}*/
