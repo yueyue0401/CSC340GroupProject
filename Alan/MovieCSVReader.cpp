@@ -6,13 +6,16 @@
 
 #include "MovieCSVReader.h"
 
+
 void MovieCSVReader::read() {
     //readfile
     std::fstream file1;
-    file1.open("/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/tmdb_5000_movies.csv");
+//    file1.open("/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/tmdb_5000_movies.csv");
+    file1.open("./tmdb_5000_movies.csv");
 
     std::fstream file2;
-    file2.open("/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/tmdb_5000_credits.csv");
+//    file2.open("/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/tmdb_5000_credits.csv");
+    file2.open("./tmdb_5000_credits.csv");
 
     std::string line1;
     std::string line2;
