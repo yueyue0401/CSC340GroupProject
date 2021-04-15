@@ -1,16 +1,17 @@
-#ifdef <Actorsprofit_processor_H>
-#define <Actorsprofit_processor_H>
+#ifndef ACTORSPROFITPROCESSOR_H
+#define ACTORSPROFITPROCESSOR_H
+
 #include <vector>
 #include "../Tommy/Movie.h"
 
 
 using namespace std;
     
-    class ActorsProfitprocessor {
+    class ActorsProfitProcessor {
     
     public:
   
-    void Profit (vector<Movie> movies, vector<string> genres);
+    void process(vector<Movie> movies, vector<string> genres);
         
     private: 
         

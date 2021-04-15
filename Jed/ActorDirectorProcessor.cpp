@@ -12,7 +12,7 @@ using namespace std;
 
 void ActorDirectorProcessor::process(vector<Movie> movies, vector<string> genres) {
     ofstream ofs;
-    ofs.open("file.txt");
+    ofs.open("actorDirectorOutput.txt");
 
     if (!ofs.is_open()) {
         cout << "Could not open file file.txt." << endl;
