@@ -2,6 +2,15 @@
 #include <vector>
 #include <string>
 
+
+Movie::Movie(){
+    title = "None";
+    company = "None";
+    director = "None";
+    revenue = 0;
+
+}
+
 Movie::Movie(
     std::string theTitle,
     std::string theCompany,

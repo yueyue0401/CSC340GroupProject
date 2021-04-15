@@ -6,6 +6,7 @@
 
 class Movie{
     public:
+        Movie();
         Movie(
             std::string theTitle,
             std::string theCompany,  
