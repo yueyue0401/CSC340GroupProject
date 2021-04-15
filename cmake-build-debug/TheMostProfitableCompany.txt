@@ -1,0 +1,50 @@
+The most profitable company in the genre Action is United Artists
+The total revenue is 2053686146
+The most profitable company in the genre Adventure is Lucasfilm
+The total revenue is 2133806630
+The most profitable company in the genre Animation is Twentieth Century Fox Film Corporation
+The total revenue is 1941682394
+The most profitable company in the genre Comedy is Columbia Pictures
+The total revenue is 1860395606
+The most profitable company in the genre Crime is Miramax Films
+The total revenue is 1587532754
+The most profitable company in the genre Documentary is Paramount Pictures
+The total revenue is 177596504
+The most profitable company in the genre Drama is Village Roadshow Pictures
+The total revenue is 2118019899
+The most profitable company in the genre Family is Warner Bros.
+The total revenue is 2072630986
+The most profitable company in the genre Fantasy is New Line Cinema
+The total revenue is 2112742126
+The most profitable company in the genre Foreign is David Hamilton Productions
+The total revenue is 10422387
+The most profitable company in the genre History is Universal Pictures
+The total revenue is 1076119047
+The most profitable company in the genre Horror is Paramount Pictures
+The total revenue is 1918232301
+The most profitable company in the genre Music is Universal Pictures
+The total revenue is 1140155991
+The most profitable company in the genre Mystery is Warner Bros.
+The total revenue is 2147405842
+The most profitable company in the genre Romance is Miramax Films
+The total revenue is 1813727083
+The most profitable company in the genre Science Fiction is New Line Cinema
+The total revenue is 2070758445
+The most profitable company in the genre TV Movie is 
+The total revenue is 0
+The most profitable company in the genre Thriller is Ingenious Film Partners
+The total revenue is 2070031715
+The most profitable company in the genre War is Universal Pictures
+The total revenue is 1536397515
+The most profitable company in the genre Western is Paramount Pictures
+The total revenue is 553001816
+The most profitable company in the genre reality is 
+The total revenue is 0
+The most profitable company in the genre reality spoof is 
+The total revenue is 0
+The most profitable company in the genre reality tv is 
+The total revenue is 0
+The most profitable company in the genre wife husband relationship is 
+The total revenue is 0
+The most profitable company in the genre woman director is 
+The total revenue is 0

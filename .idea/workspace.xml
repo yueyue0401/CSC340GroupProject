@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CSC340GroupProject" targetName="CSC340GroupProject" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4a36cf1-503e-4c08-b0f7-cf9cedc1c52d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alan/MovieCSVReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alan/tmdb_5000_credits.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alan/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kobe/ActorsProfitProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Kobe/ActorsProfitProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tommy/Movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/Movie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tommy/Movie.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/Movie.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tommy/tmdb_5000_credits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/tmdb_5000_credits.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tommy/tmdb_5000_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tommy/tmdb_5000_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///CSC340GroupProject" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__string" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1qvHh60hCpVbkLuR1QEucz7x3P9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Alan" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Alan" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tommy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CSC340GroupProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CSC340GroupProject" TARGET_NAME="CSC340GroupProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CSC340GroupProject" RUN_TARGET_NAME="CSC340GroupProject">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4a36cf1-503e-4c08-b0f7-cf9cedc1c52d" name="Default Changelist" comment="" />
+      <created>1617953259805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617953259805</updated>
+      <workItem from="1617953273226" duration="5484000" />
+      <workItem from="1618065832130" duration="2393000" />
+      <workItem from="1618130884316" duration="7576000" />
+      <workItem from="1618219660223" duration="190000" />
+      <workItem from="1618372136405" duration="6807000" />
+      <workItem from="1618381300912" duration="3986000" />
+      <workItem from="1618457632179" duration="17395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Alan/CompanyProcessor.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="Movie movie2(title, companyName, director, stol(revenueStr), actors, genreMovie);" language="ObjectiveC" />
+        <watch expression="&amp;tempActor" language="ObjectiveC" />
+        <watch expression="&amp;actors" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

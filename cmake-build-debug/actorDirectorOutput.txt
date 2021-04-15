@@ -1,0 +1,50 @@
+The most profitable director-actor in the genre Action is Christopher Nolan, Nestor Carbonell
+The total revenue is 2089497543
+The most profitable director-actor in the genre Adventure is Peter Jackson, Bernard Hill
+The total revenue is 2045176379
+The most profitable director-actor in the genre Animation is John Lasseter, John Ratzenberger
+The total revenue is 1892756447
+The most profitable director-actor in the genre Comedy is John Lasseter, John Ratzenberger
+The total revenue is 1892756447
+The most profitable director-actor in the genre Crime is Christopher Nolan, Patrick Leahy
+The total revenue is 2089497543
+The most profitable director-actor in the genre Documentary is Jeff Tremaine, Phil Margera
+The total revenue is 254285295
+The most profitable director-actor in the genre Drama is Christopher Nolan, Patrick Leahy
+The total revenue is 2089497543
+The most profitable director-actor in the genre Family is John Lasseter, John Ratzenberger
+The total revenue is 1892756447
+The most profitable director-actor in the genre Fantasy is Peter Jackson, John Noble
+The total revenue is 2045176379
+The most profitable director-actor in the genre Foreign is Deepa Mehta, Raghuvir Yadav
+The total revenue is 10422387
+The most profitable director-actor in the genre History is Steven Spielberg, Walton Goggins
+The total revenue is 550586900
+The most profitable director-actor in the genre Horror is James Wan, Patrick Wilson
+The total revenue is 735179299
+The most profitable director-actor in the genre Music is Rob Marshall, Christine Baranski
+The total revenue is 519679104
+The most profitable director-actor in the genre Mystery is M. Night Shyamalan, M. Night Shyamalan
+The total revenue is 1380036898
+The most profitable director-actor in the genre Romance is James Cameron, Kate Winslet
+The total revenue is 1845034188
+The most profitable director-actor in the genre Science Fiction is Bryan Singer, Hugh Jackman
+The total revenue is 1995848638
+The most profitable director-actor in the genre TV Movie is 
+The total revenue is 0
+The most profitable director-actor in the genre Thriller is Christopher Nolan, Patrick Leahy
+The total revenue is 2089497543
+The most profitable director-actor in the genre War is Victor Fleming, Phyllis Douglas
+The total revenue is 800352918
+The most profitable director-actor in the genre Western is Quentin Tarantino, Lee Horsley
+The total revenue is 581128355
+The most profitable director-actor in the genre reality is 
+The total revenue is 0
+The most profitable director-actor in the genre reality spoof is 
+The total revenue is 0
+The most profitable director-actor in the genre reality tv is 
+The total revenue is 0
+The most profitable director-actor in the genre wife husband relationship is 
+The total revenue is 0
+The most profitable director-actor in the genre woman director is 
+The total revenue is 0

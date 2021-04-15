@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CSC340GroupProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSC340GroupProject">
+				<Option output="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CSC340GroupProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Jed"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSC340GroupProject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSC340GroupProject/fast">
+				<Option output="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/CSC340GroupProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Jed"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe"/>
+					<Add directory="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSC340GroupProject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/CompanyProcessor.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/CompanyProcessor.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Jed/ActorDirectorProcessor.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Jed/ActorDirectorProcessor.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfit.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitProcessor.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitProcessor.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Kobe/ActorsProfitprocessor.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/Movie.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/Movie.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/MovieReader.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Tommy/MovieReader.h">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/main.cpp">
+			<Option target="CSC340GroupProject"/>
+		</Unit>
+		<Unit filename="/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

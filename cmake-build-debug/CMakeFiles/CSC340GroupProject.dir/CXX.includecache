@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Tommy/Movie.h
+string
+-
+vector
+-
+
+/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.cpp
+iostream
+-
+fstream
+-
+vector
+-
+sstream
+-
+set
+-
+MovieCSVReader.h
+/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.h
+
+/Users/alanchuang/Desktop/codingAssignment/CSC340GroupProject/Alan/MovieCSVReader.h
+set
+-
+Movie.h
+-
+
